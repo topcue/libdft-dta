@@ -1,8 +1,8 @@
 PIN_HOME=../pin-2.13
 DFT_HOME=../libdft/src
 
-CC           = gcc-4.9
-CXX          = g++-4.9
+CC           = gcc
+CXX          = g++
 CFLAGS      += -m32 -mno-mmx -mno-sse -mno-sse2 -mno-sse3
 CXXFLAGS    += -Wall -Wno-unknown-pragmas                         \
                 -c -fomit-frame-pointer -std=c++0x -O3            \
